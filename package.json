@@ -1,0 +1,26 @@
+{
+  "name": "procesar_oas",
+  "version": "1.0.0",
+  "description": "Algoritmo desarrollado por LatinSoft SpA, para procesar Listado de OA a JSON",
+  "main": "index.js",
+  "scripts": {
+    "procesar": "node --experimental-modules index.mjs",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LatinSoftSPA/PROCESAR_OAS.git"
+  },
+  "keywords": [
+    "utf-8"
+  ],
+  "author": "LatinSoft SpA",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/LatinSoftSPA/PROCESAR_OAS/issues"
+  },
+  "homepage": "https://github.com/LatinSoftSPA/PROCESAR_OAS#readme",
+  "dependencies": {
+    "csvtojson": "^2.0.10"
+  }
+}
